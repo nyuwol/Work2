@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD119FB31FEC7884000C943E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD119FB21FEC7884000C943E /* DetailViewController.swift */; };
 		CD7D297A1FEBF3FC0098050E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D29791FEBF3FC0098050E /* AppDelegate.swift */; };
 		CD7D297C1FEBF3FC0098050E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D297B1FEBF3FC0098050E /* ViewController.swift */; };
 		CD7D297F1FEBF3FC0098050E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7D297D1FEBF3FC0098050E /* Main.storyboard */; };
@@ -16,8 +17,6 @@
 		CD7D298F1FEC03F50098050E /* PayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D298E1FEC03F50098050E /* PayTableViewController.swift */; };
 		CD7D29911FEC04120098050E /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D29901FEC04120098050E /* PayViewController.swift */; };
 		CD7D29931FEC13AE0098050E /* AramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D29921FEC13AE0098050E /* AramViewController.swift */; };
-		CD7D29961FEC300B0098050E /* 34-coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7D29941FEC300B0098050E /* 34-coffee.png */; };
-		CD7D29971FEC300B0098050E /* 179-notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7D29951FEC300B0098050E /* 179-notepad.png */; };
 		CD7D299F1FEC4AFE0098050E /* CalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D299E1FEC4AFE0098050E /* CalViewController.swift */; };
 		CD7D29A11FEC541F0098050E /* CalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D29A01FEC541F0098050E /* CalTableViewController.swift */; };
 		CD7D29A31FEC5AC30098050E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D29A21FEC5AC30098050E /* MapViewController.swift */; };
@@ -25,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD119FB21FEC7884000C943E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CD7D29761FEBF3FC0098050E /* ASS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7D29791FEBF3FC0098050E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD7D297B1FEBF3FC0098050E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,8 +36,6 @@
 		CD7D298E1FEC03F50098050E /* PayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTableViewController.swift; sourceTree = "<group>"; };
 		CD7D29901FEC04120098050E /* PayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
 		CD7D29921FEC13AE0098050E /* AramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AramViewController.swift; sourceTree = "<group>"; };
-		CD7D29941FEC300B0098050E /* 34-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "34-coffee.png"; path = "../../../Downloads/34-coffee.png"; sourceTree = "<group>"; };
-		CD7D29951FEC300B0098050E /* 179-notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "179-notepad.png"; path = "../../../Downloads/179-notepad.png"; sourceTree = "<group>"; };
 		CD7D299E1FEC4AFE0098050E /* CalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalViewController.swift; sourceTree = "<group>"; };
 		CD7D29A01FEC541F0098050E /* CalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalTableViewController.swift; sourceTree = "<group>"; };
 		CD7D29A21FEC5AC30098050E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -74,8 +72,6 @@
 		CD7D29781FEBF3FC0098050E /* ASS2 */ = {
 			isa = PBXGroup;
 			children = (
-				CD7D29941FEC300B0098050E /* 34-coffee.png */,
-				CD7D29951FEC300B0098050E /* 179-notepad.png */,
 				CD7D29791FEBF3FC0098050E /* AppDelegate.swift */,
 				CD7D297B1FEBF3FC0098050E /* ViewController.swift */,
 				CD7D297D1FEBF3FC0098050E /* Main.storyboard */,
@@ -90,6 +86,7 @@
 				CD7D29A01FEC541F0098050E /* CalTableViewController.swift */,
 				CD7D29A21FEC5AC30098050E /* MapViewController.swift */,
 				CD7D29A41FEC623E0098050E /* Home.swift */,
+				CD119FB21FEC7884000C943E /* DetailViewController.swift */,
 			);
 			path = ASS2;
 			sourceTree = "<group>";
@@ -153,11 +150,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7D29961FEC300B0098050E /* 34-coffee.png in Resources */,
 				CD7D29871FEBF3FC0098050E /* LaunchScreen.storyboard in Resources */,
 				CD7D29841FEBF3FC0098050E /* Assets.xcassets in Resources */,
 				CD7D297F1FEBF3FC0098050E /* Main.storyboard in Resources */,
-				CD7D29971FEC300B0098050E /* 179-notepad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD119FB31FEC7884000C943E /* DetailViewController.swift in Sources */,
 				CD7D298F1FEC03F50098050E /* PayTableViewController.swift in Sources */,
 				CD7D29931FEC13AE0098050E /* AramViewController.swift in Sources */,
 				CD7D29A51FEC623E0098050E /* Home.swift in Sources */,
