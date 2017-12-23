@@ -23,23 +23,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpC-sc-fYr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpC-sc-fYr">
                                 <rect key="frame" x="16" y="72" width="144" height="227"/>
-                                <color key="backgroundColor" red="1" green="0.83638507090000003" blue="0.86029715399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="가계부"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="가계부" backgroundImage="1.png">
+                                    <color key="titleColor" red="0.082970001210000005" green="0.284933614" blue="0.092811556640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="1i6-gK-kcn" kind="show" id="uNd-f9-Ivm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJb-qV-HdP">
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJb-qV-HdP">
                                 <rect key="frame" x="16" y="307" width="288" height="141"/>
-                                <color key="backgroundColor" red="0.71934959369999996" green="1" blue="0.76022000460000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.94338973449999997" green="0.74234041539999995" blue="0.68038764870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="141" id="90H-pC-Srt"/>
                                 </constraints>
-                                <state key="normal" title="지도"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="일정 관리">
+                                    <color key="titleColor" red="0.68747976036269431" green="0.31737184390659795" blue="0.21206291413274159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
-                                    <segue destination="SjH-lb-ofw" kind="show" id="Ufz-Pd-ArO"/>
+                                    <segue destination="Yg5-Ub-GhT" kind="show" id="FFE-7U-nZW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRD-1v-d4n">
@@ -48,63 +54,70 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="247" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Kt-Cf-orN">
                                 <rect key="frame" x="16" y="456" width="288" height="104"/>
-                                <color key="backgroundColor" red="0.94338973449999997" green="0.74234041539999995" blue="0.68038764870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="다이어리"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="현재 위치" backgroundImage="22.jpg">
+                                    <color key="titleColor" red="0.50993766191709844" green="0.14832287196809982" blue="0.22961655555217853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.40197943652849744" green="0.25273918667440159" blue="0.0029184025463355775" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
-                                    <segue destination="Yg5-Ub-GhT" kind="show" id="qAo-DA-MTa"/>
+                                    <segue destination="SjH-lb-ofw" kind="show" id="3DT-be-9eC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4J-sb-IqC">
-                                <rect key="frame" x="168" y="72" width="136" height="111"/>
-                                <color key="backgroundColor" red="0.76211086429999997" green="0.83777992140000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="알람"/>
+                                <rect key="frame" x="168" y="72" width="136" height="111.5"/>
+                                <color key="backgroundColor" red="0.91879857512953367" green="0.80525667269190615" blue="0.81918262229936145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="알람">
+                                    <color key="titleColor" red="0.31571810233160624" green="0.026125669359666127" blue="0.033646636329999875" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="n0r-mN-tfR" kind="show" id="GTJ-7o-h8g"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7m6-GB-yni">
-                                <rect key="frame" x="195" y="235" width="11" height="21"/>
+                                <rect key="frame" x="195" y="235.5" width="11" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I93-Iw-Kdb">
-                                <rect key="frame" x="208" y="235" width="11" height="21"/>
+                                <rect key="frame" x="208" y="235.5" width="11" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCK-5j-rj6">
-                                <rect key="frame" x="221" y="235" width="11" height="21"/>
+                                <rect key="frame" x="221" y="235.5" width="11" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pif-9n-Qhv">
-                                <rect key="frame" x="253" y="235" width="11" height="21"/>
+                                <rect key="frame" x="253" y="235.5" width="11" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fl3-eA-FV1">
-                                <rect key="frame" x="266" y="235" width="11" height="21"/>
+                                <rect key="frame" x="266" y="235.5" width="11" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q2N-lc-pSS">
-                                <rect key="frame" x="168" y="191" width="22" height="108"/>
+                                <rect key="frame" x="168" y="191.5" width="22" height="107.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="22" id="eUd-k8-m6K"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zDS-WD-8Xc">
-                                <rect key="frame" x="282" y="191" width="22" height="108"/>
+                                <rect key="frame" x="282" y="191.5" width="22" height="107.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gWu-XS-4re">
-                                <rect key="frame" x="198" y="191" width="76" height="23"/>
+                                <rect key="frame" x="198" y="191.5" width="76" height="23"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="23" id="mmM-lx-s46"/>
@@ -118,7 +131,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ht-vW-eaN">
-                                <rect key="frame" x="240" y="235" width="11" height="21"/>
+                                <rect key="frame" x="240" y="235.5" width="11" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -313,7 +326,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="0.83638507090000003" blue="0.86029715399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.50071443213052325" green="0.69517082253886009" blue="0.51465156366076958" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -323,6 +336,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="가계부" id="6cb-T9-Mss">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="VYX-mS-WHt">
+                            <color key="tintColor" red="0.14339454846236818" green="0.29211868523316065" blue="0.13911835460856972" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <segue destination="ERj-jz-LMH" kind="show" id="Mzf-4k-0d5"/>
                             </connections>
@@ -508,6 +522,7 @@
                     <tabBarItem key="tabBarItem" title="일정" image="179-notepad.png" id="svC-SM-8yR"/>
                     <navigationItem key="navigationItem" title="일정" id="EFi-bC-9s9">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="ou1-HO-6oJ">
+                            <color key="tintColor" red="1" green="0.52255533219999994" blue="0.56235574269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <segue destination="fCp-SX-fr7" kind="show" id="7Nv-bl-tmJ"/>
                             </connections>
@@ -633,6 +648,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="일정 추가" id="43r-bo-WeQ">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="8cm-aO-ZDJ">
+                            <color key="tintColor" red="1" green="0.52255533219999994" blue="0.56235574269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="savePressed:" destination="fCp-SX-fr7" id="fLp-Jp-q3V"/>
                             </connections>
@@ -669,15 +685,15 @@
                             </label>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="VIn-qw-ijz">
                                 <rect key="frame" x="0.0" y="204.5" width="320" height="216"/>
-                                <color key="backgroundColor" red="0.90540089831105552" green="0.92170663519590279" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <date key="date" timeIntervalSinceReferenceDate="535564948.81730199">
                                     <!--2017-12-21 16:02:28 +0000-->
                                 </date>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVz-sT-Ejy">
-                                <rect key="frame" x="145" y="453" width="30" height="30"/>
+                                <rect key="frame" x="143.5" y="453" width="33" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="수정">
-                                    <color key="titleColor" red="0.2056783834328757" green="0.18341799979466866" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.415479274611399" green="0.05728105952228197" blue="0.20663116937111553" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="pressButton:" destination="n0r-mN-tfR" eventType="touchUpInside" id="T7p-bQ-pIz"/>
@@ -685,9 +701,10 @@
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z7T-0Q-VXm">
                                 <rect key="frame" x="219" y="131" width="51" height="31"/>
+                                <color key="onTintColor" red="0.4154792746" green="0.057281059519999997" blue="0.20663116940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </switch>
                         </subviews>
-                        <color key="backgroundColor" red="0.76211086429999997" green="0.83777992140000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.94411836139896377" green="0.86452963960765528" blue="0.86331899021693848" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Z7T-0Q-VXm" firstAttribute="top" secondItem="JX7-7R-DI1" secondAttribute="bottom" constant="67" id="2op-Gl-fmc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Z7T-0Q-VXm" secondAttribute="trailing" constant="36" id="Hxo-RT-qdQ"/>
@@ -735,7 +752,7 @@
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dKD-xI-83J">
                                 <rect key="frame" x="66" y="192" width="188" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.96979315834066837" blue="0.96640638208538465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.89649199674290359" green="0.96330553756476689" blue="0.89238143418993532" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="9Op-5A-x1k"/>
                                 </constraints>
@@ -748,7 +765,7 @@
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="saC-ys-Fp4">
                                 <rect key="frame" x="66" y="404" width="188" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.9516047699761031" blue="0.95799755301117961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.87705195650765666" green="0.96330553756476689" blue="0.88201406427844842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="3HY-iU-ctv"/>
                                 </constraints>
@@ -766,7 +783,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.83638507090000003" blue="0.86029715399999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.51121868284498895" green="0.69589944948186533" blue="0.53586352108659208" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="dBg-VE-gy7" firstAttribute="leading" secondItem="saC-ys-Fp4" secondAttribute="trailing" constant="8" id="7QM-jf-2Yn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dKD-xI-83J" secondAttribute="trailing" constant="50" id="916-WF-b32"/>
@@ -786,6 +803,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="추가" id="XbP-x5-BRZ">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="Kkl-HV-MkG">
+                            <color key="tintColor" red="0.16669719213600417" green="0.29211868523316065" blue="0.14822127498393856" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="savePressed:" destination="ERj-jz-LMH" id="UwF-KS-3i3"/>
                             </connections>
@@ -820,6 +838,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1.png" width="640" height="360"/>
         <image name="179-notepad.png" width="22" height="28"/>
+        <image name="22.jpg" width="720" height="720"/>
     </resources>
 </document>
